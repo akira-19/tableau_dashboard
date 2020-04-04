@@ -1,9 +1,9 @@
 let viz;
 $(".tableauGraph").on("click", function() {
   const vizList = [
-    "http://public.tableau.com/views/RegionalSampleWorkbook/Flights",
-    "http://public.tableau.com/views/RegionalSampleWorkbook/Obesity",
-    "http://public.tableau.com/views/RegionalSampleWorkbook/College"
+    "https://public.tableau.com/views/RegionalSampleWorkbook/Flights",
+    "https://public.tableau.com/views/RegionalSampleWorkbook/Obesity",
+    "https://public.tableau.com/views/RegionalSampleWorkbook/College"
   ];
   const containerDiv = document.getElementById("vizContainer");
   const graphId = $(this).attr("id");
